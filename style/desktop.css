@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+}
+header img{
+    min-width: 100px;
+    max-width: 200px;
+}
+header div{
+    width: 25%;
+    text-align: right;
+}
+.regions-container div{
+    font-size: 140%;
+}
+.calendar{
+    width: 100%;
+    max-width: 1050px;
+}
+.calendar-week{
+    font-size: 20px;
+}
+.calendar-background{
+    height: 85.71vw;
+    max-height: 900px;
+}
+.calendar-title{
+    font-size: 30px;
+}
+.calendar img{
+    height: 30px;
+}
+.calendar-region{
+    font-size: 20px;
+}
+.calendar-day{
+    font-size: 15px;
+    width: 14.2858%;
+    max-width: 150px;
+    height: 14.2858vw;
+    max-height: 150px;
+}
+.day-number{
+    width: 25px;
+    height: 25px;
+}

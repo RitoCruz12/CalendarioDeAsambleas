@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEENL | Calendarización de Asambleas de Organizaciones Ciudadanas</title>
+    <link rel="icon" href="assets/LogoCEE.png">
+    <link rel="stylesheet" href="style/phone.css">
+    <link rel="stylesheet" href="style/tablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width:800px)">
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="assets/LogoCEENL.png" alt="logo CEENL"/>
+        </div>
+        <h1>Calendarización de Asambleas de Organizaciones Ciudadanas</h1>
+        <div>
+            <h4>Secretaría Ejecutiva</h4>
+            <h4>Dirección de Organización y Estadística Electoral</h4>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="data-advise"><p>No hay información que mostrar</p></div> 
+            <h2 class="region-name">Región: Norte</h2>
+        <div class="regions-container">
+            <div onclick="changeRegion(1)">Norte</div><div onclick="changeRegion(2)">Noreste</div><div onclick="changeRegion(3)">Este</div><div onclick="changeRegion(4)">Sur</div>
+        </div>
+        <section class="calendar">
+            <div class="calendar-title">
+                <div class="arrow-left" onclick="lastMonth()"><img src="assets/flecha-izquierda.png" alt="flecha izquierda"></div>
+                <span class="calendar-month"></span>
+                <div class="arrow-right" onclick="nextMonth()" ><img src="assets/flecha-derecha.png" alt="flecha derecha"></div>
+            </div>
+            <div class="calendar-week">Domingo</div><div class="calendar-week">Lunes</div><div class="calendar-week">Martes</div><div class="calendar-week">Miércoles</div><div class="calendar-week">Jueves</div><div class="calendar-week">Viernes</div><div class="calendar-week">Sábado</div>
+            <!--<div class="calendar-region">Noreste</div>-->
+            <div class="calendar-background">
+                <div class="calendar-body">
+                </div>
+            </div>
+        </section>
+        </div>
+        <div class="main-regions">
+            <h2>Municipios que conforman las regiones</h2>
+            <div class="list-regions">
+                <div class="content-region">
+                    <h3>Norte</h3>
+                    <ul>
+                        <li>García</li>
+                        <li>Gral. Escobedo</li>
+                        <li>San Nicolás de los Garza</li>
+                        <li>Abasolo</li>
+                        <li>Anáhuac</li>
+                        <li>Bustamante</li>
+                        <li>El Carmen</li>
+                        <li>Hidalgo</li>
+                        <li>Lampazos de Naranjo</li>
+                        <li>Mina</li>
+                        <li>Sabinas Hidalgo</li>
+                        <li>Salinas Victoria</li>
+                        <li>Vallecillo</li>
+                        <li>Villaldama</li>
+                        <li>Ciénega de Flores</li>
+                        <li>Gral. Zuazua</li>
+                    </ul>
+                </div> <div class="content-region">
+                    <h3>Noreste</h3>
+                    <ul>
+                        <li>Los Aldamas</li>
+                        <li>China</li>
+                        <li>Dr. Coss</li>
+                        <li>Gral. Bravo</li>
+                        <li>Los Herreras</li>
+                        <li>Los Ramones</li>
+                        <li>Guadalupe</li>
+                        <li>Juárez</li>
+                        <li>Cadereyta Jiménez</li>
+                        <li>Apodaca</li>
+                        <li>Agualeguas</li>
+                        <li>Cerralvo</li>
+                        <li>Dr. González</li>
+                        <li>Gral. Treviño</li>
+                        <li>Higueras</li>
+                        <li>Melchor Ocampo</li>
+                        <li>Parás</li>
+                        <li>Marín</li>
+                        <li>Pesquería</li>
+                    </ul>
+                </div> <div class="content-region">
+                    <h3>Este</h3>
+                    <ul>
+                        <li>Allende</li>
+                        <li>Gral. Terán</li>
+                        <li>Hualahuises</li>
+                        <li>Linares</li>
+                        <li>Montemorelos</li>
+                        <li>Rayones</li>
+                        <li>San Pedro Garza García</li>
+                        <li>Monterrey</li>
+                        <li>Santiago</li>
+                        <li>Santa Catarina</li>
+                    </ul>
+                </div> <div class="content-region">
+                    <h3>Sur</h3>
+                    <ul>
+                        <li>Aramberri</li>
+                        <li>Dr. Arroyo</li>
+                        <li>Galeana</li>
+                        <li>Gral. Zaragoza</li>
+                        <li>Iturbide</li>
+                        <li>Mier y Noriega</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="label">DA</div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+        <script src="js/index.js"></script>
+    </footer>
+</body>
+</html>

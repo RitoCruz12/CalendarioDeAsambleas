@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.image-container{
+    height: 100%;
+}
+header img{
+    width: 100%;
+    max-width: 200px;
+}
+header div{
+    width: 200px;
+    text-align: right;
+}
+.calendar{
+    width: 560px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.calendar-title{
+    font-size: 25px;
+}
+.calendar img{
+    height: 25px;
+}
+.calendar-background{
+    height: 480px;
+}
+.calendar-day{
+    font-size: 10px;
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+}
+.day-number{
+    width: 18px;
+    height: 18px;
+}
+/*Regiones*/
+.content-region{
+    width: 20%;
+}
+.list-regions li{
+    margin-top: 10px;
+}
+label{
+    font-size:100%;
+}
